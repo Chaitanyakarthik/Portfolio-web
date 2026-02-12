@@ -1,7 +1,7 @@
 [
     {
         "name": "Python",
-        "icon": "./assets/images/skills/python.png"
+        "icon": "assets/images/skills/python.png"
     },
     {
         "name": "SQL",
