@@ -71,7 +71,11 @@ document.addEventListener('visibilitychange',
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: [""Building Scalable Data Pipelines","Designing Lakehouse Architectures", "Transforming Data for Analytics","Optimizing SQL & Data Models","PySpark & Delta Lake Processing"],
+    strings: ["Building Scalable Data Pipelines",
+              "Designing Lakehouse Architectures", 
+              "Transforming Data for Analytics",
+              "Optimizing SQL & Data Models",
+              "PySpark & Delta Lake Processing"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
