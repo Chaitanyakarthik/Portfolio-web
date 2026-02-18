@@ -2,7 +2,7 @@
   {
     "name": "Microsoft Fabric Lakehouse Analytics Solution",
     "desc": "Built an end-to-end analytics pipeline using Microsoft Fabric, featuring API ingestion, PySpark Lakehouse transformations, and Power BI dashboards.",
-    "image": "Architecture",
+    "image": "/assets/images/projects/Architecture.png",
     "category": "Fabric",
     "links": {
       "code": "https://github.com/Chaitanyakarthik/fabric-lakehouse-analytics-solution",
@@ -12,11 +12,12 @@
   {
     "name": "Azure Retail Data Platform",
     "desc": "Built a cloud-based Azure Data Engineering platform leveraging Medallion Architecture, scalable Spark processing, Delta Lake transformations, and Power BI analytics.",
-    "image": "Architecture.png",
+    "image": "/assets/images/projects/Architecture.PNG",
     "category": "Azure",
     "links": {
       "code": "https://github.com/Chaitanyakarthik/azure-data-engineering-retail-platform-project"
     }
   }
 ]
+
 
