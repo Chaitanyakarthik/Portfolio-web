@@ -11,7 +11,7 @@
   {
     "name": "Azure Retail Platform-project",
     "desc": "Built a cloud-based Azure Data Engineering platform leveraging Medallion Architecture, multi-source data integration, scalable Spark processing, Delta Lake modeling, and Power BI analytics",
-    "image": "Architecture",
+    "image": "assets/images/projects/Architecture.png",
     "category": "Azure",
     "links": {
       "code": "https://github.com/Chaitanyakarthik/azure-data-engineering-retail-platform-project"
@@ -338,6 +338,7 @@
     }
   }
 ]
+
 
 
 
