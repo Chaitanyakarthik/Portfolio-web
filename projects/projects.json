@@ -2,7 +2,7 @@
   {
     "name": "Microsoft Fabric Lakehouse Analytics Solution",
     "desc": "Built an end-to-end analytics pipeline using Microsoft Fabric, featuring API ingestion, PySpark Lakehouse transformations, and Power BI dashboards.",
-    "image": "/Portfolio-web/assets/images/projects/Architecture.png", 
+    "image": "/Portfolio-web/assets/images/projects/Architecture", 
     "category": "Fabric",
     "links": {
       "code": "https://github.com/Chaitanyakarthik/fabric-lakehouse-analytics-solution",
@@ -19,6 +19,7 @@
     }
   }
 ]
+
 
 
 
