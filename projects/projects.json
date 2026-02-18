@@ -6,15 +6,17 @@
     "category": "Fabric",
     "links": {
       "code": "https://github.com/Chaitanyakarthik/fabric-lakehouse-analytics-solution"
+      "view": "https://github.com/Chaitanyakarthik/fabric-lakehouse-analytics-solution/tree/main/snapshots"
     }
   },
   {
     "name": "Azure Retail Data Platform",
     "desc": "Built a cloud-based Azure Data Engineering platform leveraging Medallion Architecture, scalable Spark processing, Delta Lake transformations, and Power BI analytics.",
-    "image": "assets/images/projects/Architecture.png",
+    "image": "Architecture",
     "category": "Azure",
     "links": {
       "code": "https://github.com/Chaitanyakarthik/azure-data-engineering-retail-platform-project"
     }
   }
 ]
+
