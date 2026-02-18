@@ -1,23 +1,26 @@
-[
-  {
-    "name": "Microsoft Fabric Lakehouse Analytics Solution",
-    "desc": "Built an end-to-end analytics pipeline using Microsoft Fabric, featuring API ingestion, PySpark Lakehouse transformations, and Power BI dashboards.",
-    "image": "/assets/images/projects/Architecture.png",
-    "category": "Fabric",
-    "links": {
-      "code": "https://github.com/Chaitanyakarthik/fabric-lakehouse-analytics-solution",
-      "view": "https://github.com/Chaitanyakarthik/fabric-lakehouse-analytics-solution/tree/main/snapshots"
-    }
-  },
-  {
-    "name": "Azure Retail Data Platform",
-    "desc": "Built a cloud-based Azure Data Engineering platform leveraging Medallion Architecture, scalable Spark processing, Delta Lake transformations, and Power BI analytics.",
-    "image": "/assets/images/projects/Architecture.PNG",
-    "category": "Azure",
-    "links": {
-      "code": "https://github.com/Chaitanyakarthik/azure-data-engineering-retail-platform-project"
-    }
-  }
+[ 
+    
+    
+    {
+        "id": 1,
+        "name": "Microsoft Fabric Lakehouse Analytics Solution",
+        "desc": "Built an end-to-end analytics pipeline using Microsoft Fabric, featuring API ingestion, PySpark Lakehouse transformations, and Power BI dashboards",
+        "image": "/assets/images/projects/Architecture.png",
+        "links": {
+            "view": "https://github.com/Chaitanyakarthik/fabric-lakehouse-analytics-solution/tree/main/snapshots",
+            "code": "https://github.com/Chaitanyakarthik/fabric-lakehouse-analytics-solution"
+        }
+    },
+    {
+        "id": 2,
+        "name": "Azure Retail Data Platform",
+        "desc": "Built a cloud-based Azure Data Engineering platform leveraging Medallion Architecture, scalable Spark processing, Delta Lake transformations, and Power BI analytics",
+        "image": "/assets/images/projects/Architecture.PNG",
+        "links": {
+            "view": "https://github.com/Chaitanyakarthik/azure-data-engineering-retail-platform-project",
+            "code": "https://github.com/Chaitanyakarthik/azure-data-engineering-retail-platform-project"
+        }
+    },
+ 
+    
 ]
-
-
