@@ -53,7 +53,7 @@ function showProjects(projects) {
         projectsHTML += `
         <div class="grid-item ${project.category}">
             <div class="box tilt" style="width: 380px; margin: 1rem">
-                <img draggable="false" src="${project.image}" alt="project" />
+                
                 <div class="content">
                     <div class="tag">
                         <h3>${project.name}</h3>
@@ -136,4 +136,5 @@ document.onkeydown = function (e) {
 
     if (e.ctrlKey && e.key === "U") return false;
 };
+
 
