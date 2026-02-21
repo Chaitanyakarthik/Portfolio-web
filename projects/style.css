@@ -6,8 +6,9 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  outline: none; border: none;
-  text-transform:capitalize;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
   transition: all .2s linear;
 }
 
@@ -54,11 +55,6 @@ header{
   box-shadow: 0 1px 4px rgba(146,161,176,.3);
 }
 
-section{
-  min-height: 100vh;
-  padding: 2rem 9%;
-}
-
 .heading{
   font-size: 3.5rem;
   color: rgb(32, 32, 32);
@@ -76,22 +72,12 @@ header .logo{
   color: #0E2431;
 }
 
-header .logo i {
-  font-size: 2.2rem;
-}
-
-header .logo:hover {
-  color: #fc8c05;
-}
-
 header .navbar ul{
   list-style: none;
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
-header .navbar li{
+header .navbar ul li{
   margin-left: 2.5rem;
 }
 
@@ -99,47 +85,12 @@ header .navbar ul li a{
   font-size: 1.57rem;
   color: #0E2431;
   font-weight: 600;
-  letter-spacing: 0.04rem;
 }
 
 header .navbar ul li a.active,
 header .navbar ul li a:hover{
   color: #011aff;
   border-bottom: .2rem solid #011aff;
-  padding: .5rem 0;
-}
-
-/* ================= HAMBURGER ================= */
-
-#menu{
-  font-size: 3rem;
-  cursor: pointer;
-  color: rgb(24, 2, 63);
-  display: none;
-}
-
-@media(max-width:768px){
-
-  #menu{
-      display: block;
-  }
-
-  header .navbar{
-    position: fixed;
-    top: 6.5rem; right: -120%;
-    width: 75%;
-    height: 100%;
-    background-color: #0e0f31;
-  }
-
-  header .navbar ul{
-    flex-flow: column;
-    padding: 1rem;
-  }
-
-  header .navbar.nav-toggle{
-    right: 0;
-  }
 }
 
 /* ================= WORK SECTION ================= */
@@ -147,11 +98,11 @@ header .navbar ul li a:hover{
 .work{
   background: linear-gradient(to bottom, #010136, #00003a);
   margin-top: 5rem;
+  padding: 2rem;
 }
 
 .work h2{
   color: #fff;
-  padding: 1rem;
 }
 
 .work .heading span{
@@ -161,83 +112,78 @@ header .navbar ul li a:hover{
 .work .box-container{
   display: flex;
   flex-wrap: wrap;
-  gap:1.5rem;
-  margin: 2rem;
+  gap: 1.5rem;
+  margin-top: 2rem;
   justify-content: center;
 }
 
-/* ✅ FIXED CARD */
-.work .box-container .box{
-  flex:1 1 30rem;
+/* Project Card */
+.work .box{
+  flex: 1 1 30rem;
   max-width: 380px;
   border-radius: .5rem;
   box-shadow: 0 .7rem 1rem rgba(0,0,0,.3);
-  position: relative;
-  overflow:hidden;
-  min-height:30rem;
-  height:auto;
   background: #fff;
-}
-
-/* ✅ IMAGE FIX 🎯 */
-.work .box-container .box img{
-  width: 100%;
-  height: 18rem;
-  object-fit: cover;
-  display: block;
-}
-
-/* Overlay Content */
-.work .box-container .box .content{
-  width:100%;
-  position: absolute;
-  top:65%;
-  left:0;
-  background:rgba(255, 255, 255, 0.95);
+  overflow: hidden;
   display: flex;
   flex-direction: column;
 }
 
-.work .box-container .box .content .tag{
-  display: flex;
-  align-items: center;
-  height: 4.5rem;
-  padding-left: 1rem;
-  background: #ffd900;
+/* ✅ IMAGE FIX 🎯 */
+.work .box img{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
 }
 
-.work .box-container .box .content .tag h3{
+/* Content */
+.work .box .content{
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.95);
+}
+
+/* Tag */
+.work .box .tag{
+  background: #ffd900;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.work .box .tag h3{
   font-size: 1.8rem;
 }
 
-.work .box-container .box:hover .content{
-  top: 25%;
-}
-
-.work .desc {
-  margin: 1.5rem;
-}
-
-.work .desc p{
+/* Description */
+.work .box .desc p{
   font-size: 1.4rem;
+  margin-bottom: 1rem;
 }
 
-.work .desc .btns{
+/* Buttons */
+.work .box .btns{
   display: flex;
   justify-content: space-between;
-  margin-top: 1rem;
+  gap: 1rem;
 }
 
-.work .desc .btns .btn{
+.work .box .btn{
+  flex: 1;
   padding: 1.2rem;
   border-radius: .5rem;
   font-size: 1.4rem;
   color: #fff;
   background: rgb(12, 12, 12);
+  text-align: center;
 }
 
-.work .desc .btns .btn:hover{
+.work .box .btn:hover{
   background: #310ae0f5;
+}
+
+/* Hover */
+.work .box:hover{
+  transform: translateY(-5px);
 }
 
 /* ================= BACK BUTTON ================= */
@@ -245,24 +191,29 @@ header .navbar ul li a:hover{
 .backbtn{
   display: flex;
   justify-content: center;
-  margin: 4rem 0;
+  margin-top: 3rem;
+}
+
+.backbtn .btn{
+  padding: 1.5rem 3rem;
+  border-radius: .5rem;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.backbtn .btn:hover{
+  background: #fff;
+  color: #000;
 }
 
 /* ================= SCROLL TOP ================= */
 
 #scroll-top{
   position: fixed;
-  top: -140%;
   right: 2rem;
+  bottom: 2rem;
   padding: 1rem 1.5rem;
   font-size: 2rem;
   background: #ffae00;
-  color: rgb(13, 0, 44);
   border-radius: 5rem;
-  transition: 1s linear;
-  z-index: 1000;
-}
-
-#scroll-top.active{
-  top: calc(100% - 12rem);
 }
