@@ -1,26 +1,114 @@
-## Portfolio-Website
-Portfolio website built using HTML5, CSS3, JavaScript, and jQuery.
+# 👋 Hi, I'm Chaitanya Karthik  
+### Entry-Level Data Engineer | Azure • Databricks • Microsoft Fabric
 
-<a href="https://jigarsable.netlify.app/" target="_blank">**Visit Now** 🚀</a>
+Welcome to my GitHub profile.
+
+I am an entry-level Data Engineer with hands-on experience supporting cloud data pipelines, Lakehouse tables, and analytics-ready datasets using **Azure** and **Microsoft Fabric**.
+
+I focus on building scalable ETL workflows, improving data reliability, and designing enterprise-ready data solutions.
+
+---
+
+## 🎓 Education
+
+**Oklahoma State University (OSU)**  
+Master of Science in Management Information Systems  
+GPA: 4.0 / 4.0  
+
+Relevant Coursework:  
+Programming for Data Science • Advanced Data Wrangling • Predictive Analytics • Descriptive Analytics • Enterprise Systems
+
+---
+
+## 💼 Professional Experience
+
+### **Data Engineer**  
+Sonata Software – Microsoft Partner  
+
+• Supported and enhanced Azure Data Factory pipelines ingesting structured and semi-structured data (JSON / CSV) from REST APIs (Microsoft Dynamics 365)  
+• Maintained ETL workflows across ADLS Gen2 and Azure SQL, improving data reliability and reporting performance  
+• Assisted in automating data operations using Azure Logic Apps, eliminating recurring manual processes  
+• Monitored pipelines and notebooks, debugged ingestion and transformation issues, and implemented logging/error handling  
+
+---
+
+### **Graduate Research Assistant**  
+Oklahoma State University  
+
+• Built and maintained a 12K+ multi-source dataset via Python, REST APIs, and survey data  
+• Improved data quality by cleaning, validating, and standardizing attributes using Pandas and NumPy  
+• Documented validation rules and transformation logic for reproducibility and auditability  
+
+---
+
+## 🚀 Featured Projects
+
+### ⭐ **Enterprise Azure Hybrid Data Engineering Platform**
+
+Designed and implemented a hybrid Azure data platform simulating enterprise-grade cloud data workflows.
+
+**Key Implementations:**
+
+• Built end-to-end ETL pipelines using Azure Data Factory  
+• Implemented hybrid ingestion via Self-Hosted Integration Runtime  
+• Designed cloud storage architecture using ADLS Gen2  
+• Performed distributed transformations using Azure Databricks (PySpark)  
+• Applied Delta Lake format for analytics optimization  
+• Implemented secure credential management using Azure Key Vault  
+• Configured monitoring & alerts using Azure Logic Apps  
+• Enabled CI/CD workflows via Git integration & ARM templates  
+
+🔗 Project Repository:  
+https://github.com/Chaitanyakarthik/Enterprise-Azure-Hybrid-Dataplatform
+
+---
+
+### ⭐ **Microsoft Fabric Lakehouse Analytics Solution**
+
+Developed a Lakehouse analytics solution using Microsoft Fabric and OneLake.
+
+**Key Implementations:**
+
+• Consolidated multi-source datasets into fact and dimension tables  
+• Implemented Medallion Architecture processing using PySpark  
+• Stored analytics-ready datasets as Delta Lake tables  
+• Delivered curated datasets and Power BI dashboards tracking KPIs  
+• Reduced manual data preparation and analytics latency  
+
+---
+
+## 🛠 Technical Skills
+
+**Programming:**  
+Python • SQL • PySpark • R  
+
+**Cloud & Data Platforms:**  
+Azure Data Factory • ADLS Gen2 • Azure Databricks • Delta Lake  
+Microsoft Fabric • OneLake • Azure Synapse  
+
+**Data Engineering:**  
+ETL / ELT Pipelines • Medallion Architecture • Data Modeling  
+Delta Tables • Parquet • Schema Optimization • Data Quality Validation  
+
+**Tools & Practices:**  
+Git / Version Control • ARM Templates • Notebook Workflows  
+Azure Key Vault • Azure Logic Apps • Power BI  
+
+---
+
+## 📈 Areas of Interest
+
+Cloud Data Engineering • Lakehouse Architectures • Distributed Processing  
+Data Platform Optimization • Analytics Engineering  
+
+---
+
+## 🔗 Connect With Me
+
+🌐 Portfolio: https://chaitanyakarthik.github.io/Portfolio-web/  
+💼 LinkedIn:  https://www.linkedin.com/in/chaitanya-karthik-t/
 
 
-## 📌 Tech Stack
-[![HTML](https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)](https://github.com/jigar-sable/Portfolio-Website/search?l=html)&nbsp;
-[![CSS](https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white)](https://github.com/jigar-sable/Portfolio-Website/search?l=css)&nbsp;
-[![JS](https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)](https://github.com/jigar-sable/Portfolio-Website/search?l=javascript)
-<img alt="jQuery" src="https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white"/>
+---
 
-### Extras : 
-Particle.js, Typed.js, Tilt.js, Scroll Reveal, Tawk.to, Font Awesome and JSON
-
-## 📌 Sneak Peek of Main Page 🙈 :
-![mockup720](https://user-images.githubusercontent.com/64949957/124947013-1f682080-e02d-11eb-977e-df3bbd4fa838.png)
-![ss](https://user-images.githubusercontent.com/64949957/159113640-d92665a8-f614-42b3-8456-66b97fc2e651.png)
-
-
-<h2>📬 Contact</h2>
-
-Feel free to reach me through the below handles if you'd like to contact me.
-
-[![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jigar-sablee)
-[![instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/jigarsable.dev)
+Thanks for visiting my GitHub 🚀
