@@ -1,6 +1,6 @@
 [
   {
-    "name": "Microsoft Fabric Lakehouse Analytics Solution",
+    "name": "Fabric Lakehouse Analytics Solution",
     "desc": "Built an end-to-end analytics pipeline using Microsoft Fabric, featuring API ingestion, PySpark Lakehouse transformations, and Power BI dashboards",
 
     "image": "../assets/images/projects/ck.jpg",
@@ -22,6 +22,17 @@
     }
   },
   {
+    "name": " Enterprise Azure Hybrid Data platform",
+    "desc": "End-to-end Azure Data Engineering solution featuring SHIR-based hybrid pipelines, ADLS Gen2 lakehouse, Databricks (PySpark), Synapse SQL, and Power BI analytics",
+
+    "image": "https://github.com/Chaitanyakarthik/Portfolio-web/tree/main/assets/images/projects/epic.png",
+
+    "links": {
+      "view": "https://github.com/Chaitanyakarthik/azure-data-engineering-retail-platform-project",
+      "code": "https://github.com/Chaitanyakarthik/Enterprise-Azure-Hybrid-Dataplatform/tree/development"
+    }
+  },
+    {
     "name": "Azure Retail Data Platform (Extended Version)",
     "desc": "Enhanced Azure Retail Data Platform with additional optimizations, performance tuning, and advanced transformations",
 
@@ -33,3 +44,4 @@
     }
   }
 ]
+
