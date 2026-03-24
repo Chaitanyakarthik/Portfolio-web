@@ -34,14 +34,14 @@
   },
 
     {
-    "name": "Azure Retail Data Platform (Extended Version)",
-    "desc": "Enhanced Azure Retail Data Platform with additional optimizations, performance tuning, and advanced transformations",
+    "name": "Microsoft Fabric HR Analytics Data Platform",
+    "desc": "End-to-end Data Engineering project built using Microsoft Fabric to ingest, transform, and analyze HR data from Azure Data Lake Storage using a Lakehouse architecture and Dataflow Gen2, delivering workforce attrition insights through Power BI dashboards",
 
     "image": "https://github.com/Chaitanyakarthik/Portfolio-web/tree/main/assets/images/projects/epic.png",
 
     "links": {
-      "view": "https://github.com/Chaitanyakarthik/azure-data-engineering-retail-platform-project",
-      "code": "https://github.com/Chaitanyakarthik/azure-data-engineering-retail-platform-project"
+      "view": "https://app.fabric.microsoft.com/groups/20b780b2-3494-4800-a357-5279164a217a/list?experience=fabric-developer",
+      "code": "https://github.com/Chaitanyakarthik/hr-analytics-data-platform-fabric"
     }
   }
 ]
